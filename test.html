@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.test
+		{
+			transform: rotateY(60deg);
+		}
+		#team
+		{
+			width: 100%;
+		}
+		#list
+		{
+			width:400px;
+			height: 500px;
+			background-color: orange;
+			display: none;
+			animation: hello linear 0.5s;
+
+		}
+		@keyframes hello
+		{
+			0%{width:100px;height: 200px;}
+			100%{width:400px;height: 500px;transform: rotateY(360deg);}
+		}
+	</style>
+</head>
+<body>
+	<button onclick="show()">Popup</button>
+	<div id="team" align="center">
+		<div id="list">
+			<p>hwefowen</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var x=1
+		function show()
+		{
+			if(x==1)
+			{
+				document.getElementById("list").style.display="block";
+				document.bgColor="rgba(0,0,0,0.5)";	
+				x=0;
+			}
+			else
+			{
+				document.getElementById("list").style.display="none";
+				document.bgColor="white";
+				x=1;
+			}
+		}
+	</script>
+</body>
+</html>
