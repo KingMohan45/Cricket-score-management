@@ -6,12 +6,12 @@
 
 #### Home page
 
-![Home](https://github.com/KingMohan45/Cricket-score-management/blob/main/demo_home.png)
+![Home](https://github.com/KingMohan45/Cricket-score-management/blob/main/demo_images/demo_home.png)
 
 
 ### Match history
 
-![Matches](https://github.com/KingMohan45/Cricket-score-management/blob/main/Match_history.png)
+![Matches](https://github.com/KingMohan45/Cricket-score-management/blob/main/demo_images/Match_history.png)
 
 ### Score card
-![score-card](https://github.com/KingMohan45/Cricket-score-management/blob/main/Match_score.png)
+![score-card](https://github.com/KingMohan45/Cricket-score-management/blob/main/demo_images/Match_score.png)
