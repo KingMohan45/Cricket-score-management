@@ -1,6 +1,6 @@
 # Cricket-score-management
 - This is a cricket score management project
-- schedules next match\
+- schedules next match
 - maintains score
 - live score update
 
