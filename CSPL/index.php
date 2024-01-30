@@ -227,13 +227,21 @@
 				padding: 15px;
 			}
 			#logo
-			  {
+			{
 			    position: fixed;
 			    top:1%;
 			    left: 2%;
 			    width: 100px;
 			    height: auto;
-			  }
+			}
+			#credits
+			{
+				position: fixed;
+				top:1%;
+				right: 2%;
+				width: 50px;
+				height: auto;
+			}
 			 #view2
 			 {
 			 	background-image: url("home.jpg");
@@ -401,6 +409,7 @@
 			<a class="link" href="gallery/gallery.php?season=2">CSPL 2.0 Gallery</a>
 			<a class="link" href="matches.php">Matches</a>
 			<a class="link" href="score.php">Go Live</a>
+			<a href="https://github.com/KingMohan45" target="_blank"><img src="credits.png" id="credits"></a>
 		</div>
 		<div id="nav">
 		    <div id="i1" onclick="update_scroll(1)"></div>

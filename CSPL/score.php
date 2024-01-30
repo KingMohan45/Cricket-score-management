@@ -98,6 +98,14 @@
 			    width: 100px;
 			    height: auto;
 			  }
+			#credits
+			{
+				position: fixed;
+				top:1%;
+				right: 2%;
+				width: 50px;
+				height: auto;
+			}
 </style>
 </head>
 <body>
@@ -110,6 +118,7 @@
 			<a class="link" href="score.php">Go Live</a>
 			<a class="link" href="gallery/gallery.php">Gallery</a>
 			<a class="link" href="gallery/gallery.php?season=2">CSPL 2.0 Gallery</a>
+			<a href="https://github.com/KingMohan45" target="_blank"><img src="credits.png" id="credits"></a>  
 	</div>
 	<br><br><br>
 	<div id="pool" align="center"><br>

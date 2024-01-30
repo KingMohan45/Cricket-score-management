@@ -80,10 +80,27 @@
 				background-color: rgba(0,0,0,0.5);
 				width: 400px;
 			}
+			#logo
+			{
+			    position: fixed;
+			    top:1%;
+			    left: 2%;
+			    width: 100px;
+			    height: auto;
+			}
+			#credits
+			{
+				position: fixed;
+				top:1%;
+				right: 2%;
+				width: 50px;
+				height: auto;
+			}
 </style>
 </head>
 <body>
 	<div id="header">
+			<a href="home.php"><img src="logo.png" id="logo"></a>  
 			<a class="link" href="index.php">Home</a>
 			<a class="link" href="index.php">Pools</a>
 			<a class="link" href="index.php">Points Table</a>
@@ -91,6 +108,7 @@
 			<a class="link" href="gallery/gallery.php">Gallery</a>
 			<a class="link" href="gallery/gallery.php?season=2">CSPL 2.0 Gallery</a>
 			<a class="link" href="score.php">Go Live</a>
+			<a href="https://github.com/KingMohan45" target="_blank"><img src="credits.png" id="credits"></a>  
 	</div>
 	<br><br><br>
 	<div id="pool" align="center">
